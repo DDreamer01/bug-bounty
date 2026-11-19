@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+research/
+policies/
+logs/
+targets/
+evidence/
+reports/

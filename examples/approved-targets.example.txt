@@ -1,0 +1,11 @@
+# Example allowlist. Copy to targets/approved-targets.txt and replace with your own scope.
+# This is illustrative only — none of these hosts are authorised by this repository.
+
+# --- example programme -----------------------------------------------------
+app.example.com          | Example Program
+*.example.com            | Example Program
+api.partner.io           | Partner Program
+*-rest.example.net       | Example Program   (suffix wildcard)
+
+# --- deliberately excluded (scope.json is the second lock) -----------------
+# status.example.com  — not listed here

@@ -1,0 +1,19 @@
+{
+  "_comment": "Example only. approved-targets.txt grants access; this file narrows it. An include here never authorises a host on its own.",
+  "targets": [
+    {
+      "program": "Example Program",
+      "host": "example.com",
+      "policy_url": "https://example.com/security",
+      "include": ["*.example.com"],
+      "exclude": ["status.example.com", "*.internal.example.com"]
+    },
+    {
+      "program": "Partner Program",
+      "host": "partner.io",
+      "policy_url": "https://partner.io/disclosure",
+      "include": ["api.partner.io"],
+      "exclude": []
+    }
+  ]
+}
